@@ -5,9 +5,6 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.2.4" />
-  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\SIS.MvcFramework\SIS.MvcFramework.csproj" />
@@ -61,7 +58,6 @@
     <Folder Include="ViewModels\Home\" />
     <Folder Include="ViewModels\Problems\" />
     <Folder Include="ViewModels\Submissions\" />
-    <Folder Include="ViewModels\Users\" />
   </ItemGroup>
 
 </Project>

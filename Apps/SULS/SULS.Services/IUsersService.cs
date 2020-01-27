@@ -1,10 +1,10 @@
-﻿
-namespace SULS.Services
+﻿namespace SULS.Services
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Text;
-public interface IUsersService
+    using SULS.Models;
+
+    public interface IUsersService
     {
+        User GetUserOrNull(string username, string password);
+        User CreateUser(string username, string password, string email);
     }
 }
