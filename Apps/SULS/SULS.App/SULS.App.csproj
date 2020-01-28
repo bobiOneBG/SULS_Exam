@@ -25,6 +25,9 @@
     <None Update="Resources\css\text.css">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="Resources\favicon.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Views\Error.html">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -55,7 +58,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="ViewModels\Home\" />
     <Folder Include="ViewModels\Problems\" />
     <Folder Include="ViewModels\Submissions\" />
   </ItemGroup>

@@ -6,6 +6,12 @@
 
     public class Submission
     {
+        public Submission()
+        {
+            this.Id = Guid.NewGuid().ToString();
+        }
+        public string Id{ get; set; }
+
         [RequiredSis]
         [MaxLength(800)]
         public string Code { get; set; }

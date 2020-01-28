@@ -27,6 +27,9 @@ namespace SULS.Services
             };
 
             db.Users.Add(user);
+            db.SaveChanges();
+
+            return user;
         }
 
         public User GetUserOrNull(string username, string password)
