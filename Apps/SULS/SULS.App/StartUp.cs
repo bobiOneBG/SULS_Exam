@@ -22,6 +22,7 @@
             serviceProvider.Add<IUsersService, UsersService>();
             serviceProvider.Add<IHomeService, HomeService>();
             serviceProvider.Add<ISubmissionService, SubmissionService>();
+            serviceProvider.Add<IProblemsService, ProblemsService>();
         }
     }
 }
