@@ -64,5 +64,12 @@
 
             return Redirect("/");
         }
+
+        public IActionResult Logout()
+        {
+            this.Logout();
+
+            return Redirect("/");
+        }
     }
 }
